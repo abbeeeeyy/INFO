@@ -1,0 +1,160 @@
+#fixed{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+@font-face {
+   src: url("../FONTS/Langdon_2.otf");
+   font-family: Langdon;
+}
+body {
+	background-color: #151515;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	margin: 0;
+}
+header {
+	height:60px;
+	background-color: #151515;
+	overflow: hidden;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+}
+header img {
+	float: left;
+	height: 30px;
+	margin: 15px;
+}
+header h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Anton';
+    letter-spacing: 1px;
+}
+.divider {
+	height: 15px;
+	background-color: #A91D3A;
+}
+.topnav {
+	background-color:#EEEEEE;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topnav a {
+	font-family: 'Archivo';
+	float: left;
+	color: #151515;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 15px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.topnav a:hover {
+	background-color: #151515;
+	color: #EEEEEE;
+}
+.topnav a.active {
+	background-color: #151515;
+	color: #EEEEEE;
+}
+.bgimage {
+	background: url("../IMAGES/bg1.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+}
+h1 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+	text-align: center;
+	line-height: 99%;
+	color: white;
+	font-family: 'Anton';
+	font-size: 50px;
+}
+.info {
+	margin: 50px 100px;
+}
+h2 {
+	font-family: 'Archivo';
+	color: #EEEEEE;
+	font-size: 30px;
+	margin: 0;
+    padding-top: 20px;
+	padding-bottom: 20px;
+}
+.content {
+    display: flex;
+}
+.content-left {
+    width: 20%;
+}
+.content-right {
+    width: 80%;
+}
+.content b {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+.location {
+    display: flex;
+}
+.location-left {
+    width: 33.3%;
+}
+.location-center {
+    width: 33.3%
+}
+.location-right {
+    width: 33.3%;
+}
+.location p {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.location b {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.group {
+    text-align: center;
+}
+.group p {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.group b {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+}
+footer {
+	margin: 30px;
+	text-align: center;
+}
+footer b {
+	font-size: 12px;
+	font-family: 'DM Sans';
+	color: white;
+}

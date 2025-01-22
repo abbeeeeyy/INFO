@@ -1,0 +1,149 @@
+#fixed{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+@font-face {
+   src: url("../FONTS/Langdon_2.otf");
+   font-family: Langdon;
+}
+body {
+	background-color: #151515;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+	margin: 0;
+}
+header {
+	height:60px;
+	background-color: #151515;
+	overflow: hidden;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+}
+header img {
+	float: left;
+	height: 30px;
+	margin: 15px;
+}
+header h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Anton';
+	letter-spacing: 1px;
+}
+.divider {
+	height: 15px;
+	background-color: #A91D3A;
+}
+.topnav {
+	background-color:#EEEEEE;
+	overflow: hidden;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topnav a {
+	font-family: 'Archivo';
+	float: left;
+	color: #151515;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 15px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.topnav a:hover {
+	background-color: #151515;
+	color: #EEEEEE;
+}
+.topnav a.active {
+	background-color: #151515;
+	color: #EEEEEE;
+}
+.movies {
+	margin: 30px 100px;
+}
+h2 {
+	font-family: 'Archivo';
+	color: #EEEEEE;
+	font-size: 30px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+.media {
+    display: flex;
+}
+.media img {
+    width: 20%;
+    object-fit: contain;
+    margin-right: 15px;
+}
+.media iframe {
+    border: 0;
+    width: 80%;
+    object-fit: contain;
+}
+p {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 15px;
+}
+.content {
+    display: flex;
+}
+.content-left {
+    width: 50%;
+}
+.content-right {
+    width: 50%;
+}
+.content p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.content b {
+    font-family: 'DM Sans';
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.buy {
+	font-size: 15px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+    padding: 20px 0;
+}
+.buy a {
+	width: 170px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Archivo';
+	color: #EEEEEE;
+	text-align: center;
+    margin-left: 10px;
+	text-decoration: none;
+	background-color: #A91D3A;
+	border-radius: 15px;
+}
+.buy a:hover {
+	background-color: #EEEEEE;
+	color: #A91D3A;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+footer {
+	margin: 30px;
+	text-align: center;
+}
+footer b {
+	font-size: 12px;
+	font-family: 'DM Sans';
+	color: white;
+}
